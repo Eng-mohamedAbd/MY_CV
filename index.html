@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mohamed Abdellutif — Security Engineer</title>
+  <meta name="description" content="Mohamed Abdellutif — Security Engineer. Cybersecurity, Cloud, SIEM, EDR, Azure | Alexandria, Egypt.">
+  <meta name="author" content="Mohamed Abdellutif">
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- GSAP CDN for advanced animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="brand">
+        <img src="assets/favicon.svg" alt="" class="logo">
+        <span class="brand-name">Mohamed Abdellutif</span>
+      </div>
+      <ul class="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="cta" href="/files/Mohamed_Abdellutif_CV.pdf" download>Download CV</a>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1 class="hero-title">Mohamed <span class="accent">Abdellutif</span></h1>
+          <p class="hero-sub">Security Engineer • Cloud & Systems • SIEM & Incident Response</p>
+          <p class="hero-desc">Result-driven IT professional with 9+ years’ experience in cybersecurity, cloud architecture, and operations. Currently securing infrastructure at Mahoney Shipping & Marine Services.</p>
+          <div class="hero-ctas">
+            <a href="#contact" class="btn btn-primary">Hire / Contact</a>
+            <a href="/files/Mohamed_Abdellutif_CV.pdf" class="btn btn-outline" download>Download CV (PDF)</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <!-- avatar placeholder -->
+          <div class="avatar-card" aria-hidden="true">
+            <!-- SVG avatar file used for crisp rendering -->
+            <img src="assets/avatar.svg" alt="Professional avatar placeholder">
+            <div class="current-role">Security Engineer @ Mahoney</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div>
+            <p>I design, deploy and secure cloud & on-prem environments. I specialize in Microsoft Azure, Sophos & FortiGate ecosystems, SIEM integrations (Splunk), EDR response, and OT/ICS security.</p>
+            <ul class="meta-list">
+              <li><strong>Location:</strong> Alexandria, Egypt</li>
+              <li><strong>Email:</strong> <a href="mailto:Mohamed.1775@gmail.com">Mohamed.1775@gmail.com</a></li>
+              <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/mabdellutif/" target="_blank" rel="noopener">linkedin.com/in/mabdellutif/</a></li>
+            </ul>
+          </div>
+          <div class="skills-summary">
+            <h3>Top skills</h3>
+            <div class="skill-pill">Azure</div>
+            <div class="skill-pill">Splunk / SIEM</div>
+            <div class="skill-pill">EDR / Sophos</div>
+            <div class="skill-pill">FortiGate</div>
+            <div class="skill-pill">PowerShell / Automation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skill-bars">
+          <div class="skill">
+            <div class="skill-head"><span>Cloud (Azure & AWS)</span><span>90%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="90%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>Security (EDR, SIEM, IDS)</span><span>92%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="92%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>Networking & Firewalls</span><span>85%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="85%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>Automation (PowerShell / IaC)</span><span>83%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="83%"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-tools">
+          <h3>Tools & Monitoring</h3>
+          <div class="tool-list">
+            <span>Splunk</span><span>PRTG</span><span>Nessus</span><span>Wireshark</span><span>ManageEngine</span><span>Veeam</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <!-- Repeat for each position -->
+          <article class="timeline-item">
+            <header><h3>Security Engineer — Mahoney Shipping & Marine Services</h3><span class="date">2022 — Present</span></header>
+            <p>Implemented endpoint & perimeter security, integrated OT/ICS with Splunk, designed incident response playbooks, and led vulnerability assessments.</p>
+          </article>
+
+          <article class="timeline-item">
+            <header><h3>IT Head — Mabaret Al Asafra Laboratories</h3><span class="date">2022 — Jun 2024</span></header>
+            <p>Managed team of 7, digital transformation, procurement & SLAs, technical governance and compliance.</p>
+          </article>
+
+          <article class="timeline-item">
+            <header><h3>Senior System Engineer — Medical Analysis Provider</h3><span class="date">2018 — 2022</span></header>
+            <p>Led 14-branch infrastructure, migrations, automation, monitoring, and backup strategies.</p>
+          </article>
+
+          <article class="timeline-item">
+            <header><h3>Cloud & Security Engineer — Switchable IT Solution</h3><span class="date">2021 — Oct 2024</span></header>
+            <p>Cloud architecture, FortiGate & Sophos deployments, IaC scripting, and hybrid migrations.</p>
+          </article>
+
+          <article class="timeline-item">
+            <header><h3>Junior System Engineer — Al-Hasoob</h3><span class="date">2014 — 2017</span></header>
+            <p>End-user support, Windows Server, AD, networking and monitoring.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h4>OT/ICS Security & SIEM Integration</h4>
+            <p>Integrated OT telemetry into Splunk, created SOC alerts and incident response playbooks for industrial networks.</p>
+          </div>
+
+          <div class="project-card">
+            <h4>Azure Migration & Disaster Recovery</h4>
+            <p>Planned and executed migrations to Azure with site recovery and backup orchestration.</p>
+          </div>
+
+          <div class="project-card">
+            <h4>Automation & Efficiency</h4>
+            <p>PowerShell automation for patching, reporting and provisioning — increased team efficiency by 20%.</p>
+          </div>
+
+          <div class="project-card">
+            <h4>Red Team & Vulnerability Assessments</h4>
+            <p>Performed internal red team exercises and Nessus/pen tests to harden servers and controllers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section education">
+      <div class="container">
+        <h2 class="section-title">Education & Certifications</h2>
+        <div class="edu-grid">
+          <div class="edu-item">
+            <h4>Bachelor of Information Technology</h4>
+            <p>Alexandria University</p>
+          </div>
+          <div class="certs">
+            <h4>Selected Certifications</h4>
+            <ul>
+              <li>Azure 104, MCSE, MCSA</li>
+              <li>CompTIA Security+, CCNA</li>
+              <li>PMP, RMP</li>
+              <li>Splunk Admin, FortiGate NSE</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <div>
+            <p>I'm currently based in Alexandria, Egypt and available for security engineering, consultancy, and architecture roles.</p>
+            <ul class="contact-list">
+              <li><strong>Email:</strong> <a href="mailto:Mohamed.1775@gmail.com">Mohamed.1775@gmail.com</a></li>
+              <li><strong>Phone:</strong> 01027558528</li>
+              <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/mabdellutif/" target="_blank" rel="noopener">linkedin.com/in/mabdellutif/</a></li>
+            </ul>
+            <p class="small">Download full CV: <a href="/files/Mohamed_Abdellutif_CV.pdf" download>PDF</a></p>
+          </div>
+
+          <form id="contactForm" class="contact-form" action="#" method="post" onsubmit="submitContact(event)">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required>
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required>
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Mohamed Abdellutif — Security Engineer. Built with care.</p>
+    </div>
+  </footer>
+</body>
+</html>
